@@ -51,7 +51,7 @@
 | Random Forest (Grid search) | 0.940    | 0.911    |
 | LightGBM (Grid search)      | 0.941    | 0.914    |
 
-* Hyperparameter of Random Forest: 
+* Hyperparameter of Random Forest: {'max_depth': 5, 'max_features': 'sqrt', 'min_samples_leaf': 1, 'min_samples_split': 5, 'n_estimators': 100}
 * Hyperparameter of LightGBM: {'learning_rate': 0.05, 'max_depth': 5, 'min_child_samples': 250, 'n_estimators': 100, 'num_leaves': 63}
 
 3. 3rd dataset (Final)
